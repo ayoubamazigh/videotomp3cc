@@ -1,0 +1,37 @@
+body{
+    background-color: #F3EFE0;
+    
+}
+
+.navigation{
+    background-color: white; 
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+
+.nav-link a{
+    color: #251749;
+}
+
+.nav-link a:hover{
+    background-color: blue;
+    color: white;
+    transition: .3s;
+}
+
+.converter{
+    background-color: white;
+    box-shadow: 3px 3px 10px 3px lightgray;
+    border: 1px solid lightgray;
+}
+
+.converter button{
+    background-color: blue;
+    border: 1px solid gray;
+    border-radius: 4px;   
+    color: white;
+}
+.converter button:hover{
+    transform: scale(1.02);
+    transition: .5s;
+}

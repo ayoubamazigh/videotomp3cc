@@ -1,0 +1,44 @@
+body{
+    background-color: #1E2022;
+    color: rgb(215, 214, 214);
+}
+
+.navigation{
+    background-color: #212121; 
+    box-shadow: 3px 3px 3px black;
+}
+
+.nav-title{
+    color: aqua;
+}
+
+.nav-link a{
+    color: rgb(227, 223, 223);
+}
+
+.nav-link a:hover{
+    background-color: aqua;
+    color: black;
+    transition: .3s;
+}
+
+.converter{
+    background-color: #1E2022;
+    box-shadow: 3px 3px 10px 3px black;
+    border: 1px solid black;
+}
+
+.converter .input input {
+    color: white;
+}
+
+.converter button{
+    background-color: aqua;
+    border: 1px solid gray;
+    border-radius: 4px;   
+    color: black;
+}
+.converter button:hover{
+    transform: scale(1.02);
+    transition: .5s;
+}
