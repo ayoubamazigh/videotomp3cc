@@ -19,6 +19,7 @@ body{
     transition: .3s;
 }
 
+
 .converter{
     background-color: white;
     box-shadow: 3px 3px 10px 3px lightgray;
@@ -35,3 +36,13 @@ body{
     transform: scale(1.02);
     transition: .5s;
 }
+
+.bottom{
+    background-color: white;
+    box-shadow: 3px 3px 10px 3px lightgray;
+}
+
+.email{
+    color: black;
+}
+

@@ -9,7 +9,7 @@ body{
 }
 
 .nav-title{
-    color: aqua;
+    color: white;
 }
 
 .nav-link a{
@@ -21,6 +21,7 @@ body{
     color: black;
     transition: .3s;
 }
+
 
 .converter{
     background-color: #1E2022;
@@ -41,4 +42,16 @@ body{
 .converter button:hover{
     transform: scale(1.02);
     transition: .5s;
+}
+
+.bottom{
+    box-shadow: 3px 3px 10px 3px black;
+}
+
+.email{
+    color: white;
+}
+
+.tutorial a{
+    color: rgb(0, 255, 0);
 }

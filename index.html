@@ -1,67 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videotomp3.com</title>
-    <link rel="stylesheet" href="assests/css/index-style.css" >
-    <link rel="stylesheet" href="assests/css/website.css" >
-    <link rel="stylesheet" href="assests/css/thems/light-mode.css" >
+    <link rel="stylesheet" href="assests/css/index-style.css">
+    <link rel="stylesheet" href="assests/css/website.css">
+    <script src="assests/javascript/dark-mode.js" ></script>
+    
     <script src="https://kit.fontawesome.com/2d000a4f7f.js" crossorigin="anonymous"></script>
-    
-</head>
-<body class="main-background" >
 
-    
-    
+</head>
+
+<body class="main-background">
+
+
+
 
 
 
     <navigation class='navigation background'>
-        <div class='nav-title' >Youtube to mp3</div>
-        <ul class='nav-links'>
-            <li class='nav-link' >
-                <a href='#' >
+        <div class='nav-title'>Youtube to mp3</div>
+
+        <ul id="links-collaps" class='nav-links'>
+            <li class='nav-link'>
+                <a href='#'>
                     <i class="fa-solid fa-house"></i>
                     Home
                 </a>
             </li>
-            <li class='nav-link' >
-                
-                <a class='primary-color' href='#' >
+            <li class='nav-link'>
+
+                <a class='primary-color' href='#'>
                     <i class="fa-solid fa-circle-question"></i>
                     FAQ?
                 </a>
             </li>
-            <li class='nav-link' >
-                
-                <a  href='#' >
+            <li class='nav-link'>
+
+                <a href='#'>
                     <i class="fa-solid fa-address-card"></i>
                     About
                 </a>
             </li>
-            <li class='nav-link' >
-                
-                <a href='#' >
+            <li class='nav-link'>
+
+                <a href='#'>
                     <i class="fa-solid fa-envelope"></i>
                     Contact
                 </a>
             </li>
-            <li class='nav-link' >
-                
-                <a href='#' >
+            <li class='nav-link'>
+
+                <a href='#'>
                     <i class="fa-solid fa-file-signature"></i>
                     Privacy
                 </a>
             </li>
         </ul>
 
-        <div class="nav-dark-mode-logo">
+        <div onclick="darkmode();" class="nav-dark-mode-logo">
             <i class="fa-solid fa-moon"></i>
         </div>
 
-        <div class="nav-colapce-logo">
+        <div onclick="nav_colaps()" class="nav-colapce-logo">
             <i class="fa-solid fa-bars"></i>
         </div>
     </navigation>
@@ -72,16 +76,16 @@
     </div>
 
 
-    <div class="converter" >
+    <div class="converter">
         <div class="title">Search keywords or paste link here</div>
-        <div class="input" >
-            <input type='url' >
+        <div class="input">
+            <input type='url'>
             <button>Convert</button>
         </div>
-        <div class='example' >(i.e., "http://www.Video-website.com/videourl")</div>
+        <div class='example'>(i.e., "http://www.Video-website.com/videourl")</div>
 
         <div class="tutorial">How to Use our service?
-            <a href="#" >
+            <a href="#">
                 <i class="fa-solid fa-play"></i>
                 Watch the tutorial
             </a>
@@ -94,22 +98,16 @@
     </div>
 
 
-
-    <div class="how-title" >
-        How to Convert YouTube to MP3 with Y2mate?
-    </div>
-
-
     <nav>
         <ul>
-           <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
-           <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
-           <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-           <li><a href="#"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
-           <li><a href="#"><i class="fa-solid fa-share-nodes"></i><span>Share</span></a></li>
-           <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-share-nodes"></i><span>Share</span></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
         </ul>
-     </nav>
+    </nav>
 
 
 
@@ -128,15 +126,20 @@
 
 
 
-     <footer class="bottom" >
-        <div class='disclamer' >
-            DISCLAIMER: y2mate.guru serves you on a legal basis. Do not download any copyrighted materials without permission.
+    <footer class="bottom">
+        <div class='disclamer'>
+            DISCLAIMER: y2mate.guru serves you on a legal basis. Do not download any copyrighted materials without
+            permission.
         </div>
-        <div class="footer" >
-        <div class='copyright' >© all right reserved 2023</div>
-        <a mailto='Email@videoconverter.com' >Email@videoconverter.com</a>
+        <div class="footer">
+            <div class='copyright'>© all right reserved 2023</div>
+            <a class="email" href="mailto:email@example.com">Email@videoconverter.com</a>
         </div>
-     </footer>
+    </footer>
 
+
+
+    <script src="assests/javascript/responsive-navigation.js" ></script>
 </body>
+
 </html>
