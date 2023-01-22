@@ -11,9 +11,7 @@ if (window.localStorage.getItem('theme')){
     window.localStorage.setItem('theme', 1)
     location.reload()
 }
-
 function darkmode(){
-
         if(window.localStorage.getItem('theme') == 1){
             window.localStorage.setItem('theme', 0)
             location.reload()

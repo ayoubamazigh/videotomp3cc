@@ -1,6 +1,5 @@
 body{
     background-color: #F3EFE0;
-    
 }
 
 .navigation{
@@ -8,6 +7,9 @@ body{
     box-shadow: 3px 3px 3px lightgray;
 }
 
+.nav-title{
+    color: black;    
+}
 
 .nav-link a{
     color: #251749;
@@ -26,13 +28,13 @@ body{
     border: 1px solid lightgray;
 }
 
-.converter button{
+.converter .convert-btn{
     background-color: blue;
     border: 1px solid gray;
     border-radius: 4px;   
     color: white;
 }
-.converter button:hover{
+.converter .convert-btn:hover{
     transform: scale(1.02);
     transition: .5s;
 }
@@ -46,3 +48,6 @@ body{
     color: black;
 }
 
+.tutorial a{
+    color: rgb(9, 5, 255);
+}

@@ -30,16 +30,16 @@ body{
 }
 
 .converter .input input {
-    color: white;
+    color: black;
 }
 
-.converter button{
+.converter .convert-btn{
     background-color: aqua;
     border: 1px solid gray;
     border-radius: 4px;   
     color: black;
 }
-.converter button:hover{
+.converter .convert-btn:hover{
     transform: scale(1.02);
     transition: .5s;
 }

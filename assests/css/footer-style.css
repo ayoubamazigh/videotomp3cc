@@ -1,0 +1,52 @@
+.bottom{
+    position: sticky;
+    top: 100%;
+    width: 100%;
+
+}
+.footer {
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.disclamer{
+    padding: .5rem;
+    text-align: center;
+}
+
+
+.email{
+    display: flex;
+}
+
+.email i{
+    padding: 0 3px;
+    margin-top: 2px;
+}
+.email:hover{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-bottom: 0px ;
+    border: 0px;
+}
+
+.copyright i{
+    margin: 4px -5px 0 0;
+
+}
+
+@media(max-width: 900px){
+
+.disclamer{
+    font-size: .6rem;
+}
+
+.copyright{
+    display: none;
+}
+
+}
